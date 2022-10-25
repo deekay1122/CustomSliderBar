@@ -1,0 +1,6 @@
+framework module Pods_CustomSliderPractice {
+  umbrella header "Pods-CustomSliderPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		53E536E92906C83500A8347E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E536E82906C83500A8347E /* AppDelegate.swift */; };
 		53E536EB2906C83500A8347E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E536EA2906C83500A8347E /* SceneDelegate.swift */; };
 		53E536ED2906C83500A8347E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E536EC2906C83500A8347E /* ViewController.swift */; };
-		53E536F02906C83500A8347E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E536EE2906C83500A8347E /* Main.storyboard */; };
 		53E536F22906C83600A8347E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E536F12906C83600A8347E /* Assets.xcassets */; };
 		53E536F52906C83600A8347E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E536F32906C83600A8347E /* LaunchScreen.storyboard */; };
+		57735381B7A26F104EC2183D /* Pods_CustomSliderPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F365078179E1AD995E2BE /* Pods_CustomSliderPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,12 @@
 		53E536E82906C83500A8347E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53E536EA2906C83500A8347E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53E536EC2906C83500A8347E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53E536EF2906C83500A8347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53E536F12906C83600A8347E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53E536F42906C83600A8347E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53E536F62906C83600A8347E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A0F1A8CB3EFAAECE5C01D7 /* Pods-CustomSliderPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSliderPractice.release.xcconfig"; path = "Target Support Files/Pods-CustomSliderPractice/Pods-CustomSliderPractice.release.xcconfig"; sourceTree = "<group>"; };
+		7D957E24B30EF952741345C5 /* Pods-CustomSliderPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSliderPractice.debug.xcconfig"; path = "Target Support Files/Pods-CustomSliderPractice/Pods-CustomSliderPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4F365078179E1AD995E2BE /* Pods_CustomSliderPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSliderPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57735381B7A26F104EC2183D /* Pods_CustomSliderPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4407CD4C3F90AC0E768F407F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D957E24B30EF952741345C5 /* Pods-CustomSliderPractice.debug.xcconfig */,
+				66A0F1A8CB3EFAAECE5C01D7 /* Pods-CustomSliderPractice.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		53E536DC2906C83500A8347E = {
 			isa = PBXGroup;
 			children = (
 				53E536E72906C83500A8347E /* CustomSliderPractice */,
 				53E536E62906C83500A8347E /* Products */,
+				4407CD4C3F90AC0E768F407F /* Pods */,
+				816E331B53C88FBB7F38CBEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,19 @@
 				53E536E82906C83500A8347E /* AppDelegate.swift */,
 				53E536EA2906C83500A8347E /* SceneDelegate.swift */,
 				53E536EC2906C83500A8347E /* ViewController.swift */,
-				53E536EE2906C83500A8347E /* Main.storyboard */,
 				53E536F12906C83600A8347E /* Assets.xcassets */,
 				53E536F32906C83600A8347E /* LaunchScreen.storyboard */,
 				53E536F62906C83600A8347E /* Info.plist */,
 			);
 			path = CustomSliderPractice;
+			sourceTree = "<group>";
+		};
+		816E331B53C88FBB7F38CBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F365078179E1AD995E2BE /* Pods_CustomSliderPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53E536F92906C83600A8347E /* Build configuration list for PBXNativeTarget "CustomSliderPractice" */;
 			buildPhases = (
+				BB83ED9062BA763957AFD019 /* [CP] Check Pods Manifest.lock */,
 				53E536E12906C83500A8347E /* Sources */,
 				53E536E22906C83500A8347E /* Frameworks */,
 				53E536E32906C83500A8347E /* Resources */,
+				F7F7C1D62F1962F31EC359E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +127,7 @@
 				};
 			};
 			buildConfigurationList = 53E536E02906C83500A8347E /* Build configuration list for PBXProject "CustomSliderPractice" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,11 +151,52 @@
 			files = (
 				53E536F52906C83600A8347E /* LaunchScreen.storyboard in Resources */,
 				53E536F22906C83600A8347E /* Assets.xcassets in Resources */,
-				53E536F02906C83500A8347E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB83ED9062BA763957AFD019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomSliderPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F7C1D62F1962F31EC359E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomSliderPractice/Pods-CustomSliderPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomSliderPractice/Pods-CustomSliderPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomSliderPractice/Pods-CustomSliderPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53E536E12906C83500A8347E /* Sources */ = {
@@ -147,14 +212,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		53E536EE2906C83500A8347E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53E536EF2906C83500A8347E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		53E536F32906C83600A8347E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +339,7 @@
 		};
 		53E536FA2906C83600A8347E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D957E24B30EF952741345C5 /* Pods-CustomSliderPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +353,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +369,7 @@
 		};
 		53E536FB2906C83600A8347E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A0F1A8CB3EFAAECE5C01D7 /* Pods-CustomSliderPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
